@@ -33,6 +33,11 @@
       <url>http://rodin-b-sharp.sourceforge.net/updates</url>
     </repository>
     <repository>
+      <id>ProB</id>
+      <layout>p2</layout>
+      <url>http://www.stups.hhu.de/prob_updates_rodin3</url>
+    </repository>
+    <repository>
       <id>Soton-releases</id>
       <layout>p2</layout>
       <url>https://eventb-soton.github.io/updateSite/releases</url>
