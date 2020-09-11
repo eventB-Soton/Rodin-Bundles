@@ -26,7 +26,7 @@
     <!-- #################################################### -->
     <!-- RODIN PRODUCTS BUILD -->
     <!-- #################################################### -->
-    <module>ac.soton.rodinp.camillex</module>
+    <module>ac.soton.rodinp.releases</module>
   </modules>
   
 </project>
