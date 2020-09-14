@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?pde version="3.5"?>
 
-<product name="Rodin Platform" uid="org.rodinp.platform.product" id="org.rodinp.platform.product" application="org.eclipse.ui.ide.workbench" version="3.5.0.202008240847-RC1-051cd6820" useFeatures="true" includeLaunchers="true">
+<product name="Rodin Platform" uid="org.rodinp.platform.product" id="org.rodinp.platform.product" application="org.eclipse.ui.ide.workbench" version="3.5.0.202009111309-74e0e4188" useFeatures="true" includeLaunchers="true">
 
    <aboutInfo>
       <image path="icons/about.gif"/>
@@ -57,6 +57,7 @@
       <feature id="ac.soton.eventb.classdiagrams.feature" version="3.0.0.release" installMode="root"/>
       <feature id="ac.soton.eventb.scenariochecker.feature" version="0.0.0.release" installMode="root"/>
       <feature id="ac.soton.eventb.roseEditor.feature" version="1.7.0.release" installMode="root"/>
+      <feature id="org.eventb.smt" version="1.4.0.8c9a179" installMode="root"/>
    </features>
 
    <configurations>
@@ -65,7 +66,6 @@
       <plugin id="org.eclipse.equinox.ds" autoStart="true" startLevel="2" />
       <plugin id="org.eclipse.equinox.p2.reconciler.dropins" autoStart="true" startLevel="4" />
       <plugin id="org.eclipse.equinox.simpleconfigurator" autoStart="true" startLevel="1" />
-      <plugin id="org.eclipse.update.configurator" autoStart="false" startLevel="4" />
    </configurations>
 
    <preferencesInfo>
