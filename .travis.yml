@@ -1,6 +1,8 @@
-language: generic
+language: java
+
+cache:
+  directories:
+  - $HOME/.m2
 
 script:
-  - mkdir -p $HOME/.m2
-  - cp -f ac.soton.rodinp.releng/toolchains.xml $HOME/.m2
   - mvn clean verify

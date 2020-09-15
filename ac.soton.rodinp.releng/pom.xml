@@ -31,8 +31,8 @@
     <!-- Plug-in versions -->
     <tycho-version>2.0.0</tycho-version>
     <maven-resources-plugin-version>3.2.0</maven-resources-plugin-version>
-    <maven-antrun-plugin-version>3.0.0</maven-antrun-plugin-version>
-    <maven-toolchains-plugin-version>3.0.0</maven-toolchains-plugin-version>
+    <!-- <maven-antrun-plugin-version>3.0.0</maven-antrun-plugin-version> -->
+    <!-- <maven-toolchains-plugin-version>3.0.0</maven-toolchains-plugin-version> -->
   </properties>
 
   <!-- Update sites to gather different features for the bundle -->
@@ -114,16 +114,16 @@
 	  <artifactId>tycho-p2-director-plugin</artifactId>
 	  <version>${tycho-version}</version>
 	</plugin>
-	<plugin>
-	  <groupId>org.apache.maven.plugins</groupId>
-	  <artifactId>maven-antrun-plugin</artifactId>
-	  <version>${maven-antrun-plugin-version}</version>
-	</plugin>
-	<plugin>
-	  <groupId>org.apache.maven.plugins</groupId>
-	  <artifactId>maven-toolchains-plugin</artifactId>
-	  <version>${maven-toolchains-plugin-version}</version>
-	</plugin>
+	<!-- <plugin> -->
+	<!--   <groupId>org.apache.maven.plugins</groupId> -->
+	<!--   <artifactId>maven-antrun-plugin</artifactId> -->
+	<!--   <version>${maven-antrun-plugin-version}</version> -->
+	<!-- </plugin> -->
+	<!-- <plugin> -->
+	<!--   <groupId>org.apache.maven.plugins</groupId> -->
+	<!--   <artifactId>maven-toolchains-plugin</artifactId> -->
+	<!--   <version>${maven-toolchains-plugin-version}</version> -->
+	<!-- </plugin> -->
 	<!-- Deactivate the Maven resource plug-in -->
 	<plugin>
 	  <groupId>org.apache.maven.plugins</groupId>
@@ -151,70 +151,70 @@
 	<extensions>true</extensions>
       </plugin>
       <!-- enable source bundle creation for plugin and features -->
-      <plugin>
-	<groupId>org.eclipse.tycho</groupId>
-	<artifactId>tycho-source-plugin</artifactId>
-	<version>${tycho-version}</version>
-	<executions>
-	  <execution>
-	    <id>plugin-source</id>
-	    <phase>prepare-package</phase>
-	    <goals>
-	      <goal>plugin-source</goal>
-	    </goals>
-	  </execution>
-	</executions>
-      </plugin>
+      <!-- <plugin> -->
+      <!-- 	<groupId>org.eclipse.tycho</groupId> -->
+      <!-- 	<artifactId>tycho-source-plugin</artifactId> -->
+      <!-- 	<version>${tycho-version}</version> -->
+      <!-- 	<executions> -->
+      <!-- 	  <execution> -->
+      <!-- 	    <id>plugin-source</id> -->
+      <!-- 	    <phase>prepare-package</phase> -->
+      <!-- 	    <goals> -->
+      <!-- 	      <goal>plugin-source</goal> -->
+      <!-- 	    </goals> -->
+      <!-- 	  </execution> -->
+      <!-- 	</executions> -->
+      <!-- </plugin> -->
       <!-- Use the tycho-versions plugin goals -->
       <plugin>
 	<groupId>org.eclipse.tycho</groupId>
 	<artifactId>tycho-versions-plugin</artifactId>
 	<version>${tycho-version}</version>
       </plugin>
-      <plugin>
-        <groupId>org.eclipse.tycho</groupId>
-        <artifactId>target-platform-configuration</artifactId>
-        <version>${tycho-version}</version>
-        <configuration>
-          <environments>
-            <environment>
-              <os>linux</os>
-              <ws>gtk</ws>
-              <arch>x86_64</arch>
-            </environment>
-            <environment>
-              <os>win32</os>
-              <ws>win32</ws>
-              <arch>x86_64</arch>
-            </environment>
-            <environment>
-              <os>macosx</os>
-              <ws>cocoa</ws>
-              <arch>x86_64</arch>
-            </environment>
-          </environments>
-        </configuration>
-      </plugin>
-      <plugin>
-	<groupId>org.apache.maven.plugins</groupId>
-	<artifactId>maven-toolchains-plugin</artifactId>
-	<version>${maven-toolchains-plugin-version}</version>
-	<executions>
-	  <execution>
-	    <goals>
-	      <goal>toolchain</goal>
-	    </goals>
-	  </execution>
-	</executions>
-	<configuration>
-	  <toolchains>
-	    <jdk>
-	      <version>1.8</version>
-	      <vendor>openjdk</vendor>
-	    </jdk>
-	  </toolchains>
-	</configuration>
-      </plugin>
+      <!-- <plugin> -->
+      <!--   <groupId>org.eclipse.tycho</groupId> -->
+      <!--   <artifactId>target-platform-configuration</artifactId> -->
+      <!--   <version>${tycho-version}</version> -->
+      <!--   <configuration> -->
+      <!--     <environments> -->
+      <!--       <environment> -->
+      <!--         <os>linux</os> -->
+      <!--         <ws>gtk</ws> -->
+      <!--         <arch>x86_64</arch> -->
+      <!--       </environment> -->
+      <!--       <environment> -->
+      <!--         <os>win32</os> -->
+      <!--         <ws>win32</ws> -->
+      <!--         <arch>x86_64</arch> -->
+      <!--       </environment> -->
+      <!--       <environment> -->
+      <!--         <os>macosx</os> -->
+      <!--         <ws>cocoa</ws> -->
+      <!--         <arch>x86_64</arch> -->
+      <!--       </environment> -->
+      <!--     </environments> -->
+      <!--   </configuration> -->
+      <!-- </plugin> -->
+      <!-- <plugin> -->
+      <!-- 	<groupId>org.apache.maven.plugins</groupId> -->
+      <!-- 	<artifactId>maven-toolchains-plugin</artifactId> -->
+      <!-- 	<version>${maven-toolchains-plugin-version}</version> -->
+      <!-- 	<executions> -->
+      <!-- 	  <execution> -->
+      <!-- 	    <goals> -->
+      <!-- 	      <goal>toolchain</goal> -->
+      <!-- 	    </goals> -->
+      <!-- 	  </execution> -->
+      <!-- 	</executions> -->
+      <!-- 	<configuration> -->
+      <!-- 	  <toolchains> -->
+      <!-- 	    <jdk> -->
+      <!-- 	      <version>1.8</version> -->
+      <!-- 	      <vendor>openjdk</vendor> -->
+      <!-- 	    </jdk> -->
+      <!-- 	  </toolchains> -->
+      <!-- 	</configuration> -->
+      <!-- </plugin> -->
     </plugins>
   </build>
   
