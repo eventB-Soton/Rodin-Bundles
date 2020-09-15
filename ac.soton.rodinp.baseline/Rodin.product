@@ -57,7 +57,6 @@
       <feature id="ac.soton.eventb.classdiagrams.sdk" version="3.0.0.release" installMode="root"/>
       <feature id="ac.soton.eventb.scenariochecker.sdk" version="0.0.0.release" installMode="root"/>
       <feature id="ac.soton.eventb.roseEditor.sdk" version="1.7.0.release" installMode="root"/>
-      <feature id="org.eventb.smt" version="1.4.0.8c9a179" installMode="root"/>
    </features>
 
    <configurations>
