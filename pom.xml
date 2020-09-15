@@ -41,6 +41,7 @@
     <!-- #################################################### -->
     <module>ac.soton.rodinp.releases</module>
     <module>ac.soton.rodinp.baseline</module>
+    <module>ac.soton.rodinp.target</module>
   </modules>
   
 </project>

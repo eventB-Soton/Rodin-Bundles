@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?pde version="3.5"?>
+
+<product name="Rodin Platform" uid="org.rodinp.platform.product" id="org.rodinp.platform.product" application="org.eclipse.ui.ide.workbench" version="3.5.0.202009111309-74e0e4188-TG2008" useFeatures="true" includeLaunchers="true">
+
+   <aboutInfo>
+      <image path="icons/about.gif"/>
+      <text>
+         %aboutText
+      </text>
+   </aboutInfo>
+
+   <configIni use="default">
+   </configIni>
+
+   <launcherArgs>
+      <vmArgs>-Dosgi.requiredJavaVersion=1.8
+-Xms256m
+-Xmx1024m
+-XX:+UseG1GC
+-XX:+UseStringDeduplication
+--add-modules=ALL-SYSTEM
+      </vmArgs>
+   </launcherArgs>
+
+   <windowImages i16="icons/rodin16.gif" i32="icons/rodin32.gif" i48="icons/rodin48.gif" i64="icons/rodin64.gif" i128="icons/rodin128.gif" i256="icons/rodin256.gif"/>
+
+   <splash
+      location="org.rodinp.platform"
+      startupProgressRect="5,200,445,15"
+      startupMessageRect="7,177,445,20"
+      startupForegroundColor="000000" />
+   <launcher name="rodin">
+      <linux icon="rodin32.xpm"/>
+      <macosx icon="rodin.icns"/>
+      <win useIco="true">
+         <ico path="rodin.ico"/>
+         <bmp/>
+      </win>
+   </launcher>
+
+   <intro introId="org.rodinp.platform.intro"/>
+
+   <vm>
+   </vm>
+
+   <plugins>
+   </plugins>
+
+   <features>
+      <feature id="org.eventb.ide" version="3.5.0.qualifier"/>
+      <feature id="org.rodinp.platform" version="3.5.0.qualifier"/>
+      <feature id="org.rodinp.handbook.feature" installMode="root"/>
+      <feature id="ac.soton.xeventb.sdk" version="2.0.0.release" installMode="root"/>
+      <feature id="ac.soton.eventb.statemachines.sdk" version="4.0.1.release" installMode="root"/>
+      <feature id="ac.soton.eventb.statemachines.animation.sdk" version="3.0.0.release" installMode="root"/>
+      <feature id="ac.soton.eventb.classdiagrams.sdk" version="3.0.0.release" installMode="root"/>
+      <feature id="ac.soton.eventb.scenariochecker.sdk" version="0.0.0.release" installMode="root"/>
+      <feature id="ac.soton.eventb.roseEditor.sdk" version="1.7.0.release" installMode="root"/>
+      <feature id="org.eventb.smt" version="1.4.0.8c9a179" installMode="root"/>
+      <feature id="org.eclipse.xtext.sdk" version="2.22.0.v20200602-1533" installMode="root"/>
+      <feature id="org.eclipse.sdk" version="4.16.0.v20200604-0951" installMode="root"/>
+      <feature id="org.eclipse.emf.sdk" version="2.22.0.v20200519-1135" installMode="root"/>
+      <feature id="org.eclipse.gef.sdk" version="3.11.0.201606061308" installMode="root"/>
+   </features>
+
+   <configurations>
+      <plugin id="org.eclipse.core.runtime" autoStart="true" startLevel="0" />
+      <plugin id="org.eclipse.equinox.common" autoStart="true" startLevel="2" />
+      <plugin id="org.eclipse.equinox.ds" autoStart="true" startLevel="2" />
+      <plugin id="org.eclipse.equinox.p2.reconciler.dropins" autoStart="true" startLevel="4" />
+      <plugin id="org.eclipse.equinox.simpleconfigurator" autoStart="true" startLevel="1" />
+   </configurations>
+
+   <preferencesInfo>
+      <targetfile overwrite="false"/>
+   </preferencesInfo>
+
+   <cssInfo>
+   </cssInfo>
+
+</product>
