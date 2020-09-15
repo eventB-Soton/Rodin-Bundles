@@ -31,8 +31,8 @@
   <groupId>ac.soton.rodinp</groupId>
   <artifactId>root</artifactId>
   <version>0.0.0-SNAPSHOT</version>
-  <name>Rodin Bundles Root</name>
-  <description>Rodin Bundles Root Build</description>
+  <name>Soton Rodin Bundles Root</name>
+  <description>Soton Rodin Bundles Root Build</description>
   <packaging>pom</packaging>
   
   <modules>
