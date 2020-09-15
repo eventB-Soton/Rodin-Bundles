@@ -66,12 +66,7 @@ group. Currently the folllowing bundles are included:
   - EMF SDK 2.22.0.v20200519-1135
   - GEF SDK 3.11.0.201606061308
 
-Running *mvn clean verify* at the top level will build all bundles. If
-Maven fails and complains about missing toolchain, update
-*ac.soton.rodinp.releng/toolchains.xml* with the location of the
-JavaHome and copy it to *$HOME/.m2/* folder. Do not commit changes to
-*toolchains.xml* as this is the setup for Travis CI build.
-
-Individual bundle can be built by running *mvn clean verify* within
-the corresponding folder.
+Running *mvn clean verify* at the top level will build all
+bundles. Individual bundle can be built by running *mvn clean verify*
+within the corresponding folder.
 
