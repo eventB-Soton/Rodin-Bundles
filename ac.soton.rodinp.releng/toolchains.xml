@@ -23,7 +23,7 @@
       <vendor>openjdk</vendor>
     </provides>
     <configuration>
-      <jdkHome>/path/to/openjdk-8-jre</jdkHome>
+      <jdkHome>$HOME/openjdk11</jdkHome>
     </configuration>
   </toolchain>
 </toolchains>
