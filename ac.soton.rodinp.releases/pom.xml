@@ -30,7 +30,7 @@
   <version>3.5.0-SNAPSHOT</version>
   
   <properties>
-    <bundle-suffix>CmX2.0.0</bundle-suffix>
+    <bundle-suffix>RL2008</bundle-suffix>
   </properties>
 
   <packaging>eclipse-repository</packaging>
