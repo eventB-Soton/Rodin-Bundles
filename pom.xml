@@ -40,6 +40,7 @@
     <!-- RODIN PRODUCTS BUILD -->
     <!-- #################################################### -->
     <module>ac.soton.rodinp.releases</module>
+    <module>ac.soton.rodinp.baseline</module>
   </modules>
   
 </project>
