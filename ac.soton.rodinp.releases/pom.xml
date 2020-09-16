@@ -33,6 +33,15 @@
     <bundle-suffix>RL2008</bundle-suffix>
   </properties>
 
+  <repositories>
+    <!-- Repository contains the based Rodin platform -->
+    <repository>
+      <id>rodin-core-updates</id>
+      <layout>p2</layout>
+      <url>http://rodin-b-sharp.sourceforge.net/core-updates</url>
+    </repository>
+  </repositories>
+
   <packaging>eclipse-repository</packaging>
   <build>
     <plugins>
