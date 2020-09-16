@@ -70,9 +70,10 @@
       <feature id="ac.soton.eventb.emf.record.sdk" version="0.1.0.qualifier" installMode="root"/>
       <feature id="org.eclipse.xtext.sdk" version="2.22.0.qualifier" installMode="root"/>
       <feature id="org.eclipse.sdk" version="4.16.0.qualifier" installMode="root"/>
-      <feature id="org.eclipse.emf.sdk" version="2.22.0.qualifier" installMode="root"/>
-      <feature id="org.eclipse.gef.sdk" version="3.11.0.qualifier" installMode="root"/>
-      <feature id="org.eclipse.gmf.runtime.sdk" version="1.13.0.qualifier" installMode="root"/>
+      <!-- Disabled since it is included in GMF SDK -->
+      <!-- <feature id="org.eclipse.emf.sdk"
+	   version="2.22.0.qualifier" installMode="root"/> -->
+      <feature id="org.eclipse.gmf.sdk" version="3.2.1.qualifier" installMode="root"/>
    </features>
 
    <configurations>

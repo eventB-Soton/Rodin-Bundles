@@ -1,8 +1,8 @@
-language: generic
+language: java
 
 cache:
   directories:
   - $HOME/.m2
 
 script:
-  - ./run-maven.sh
+  - mvn clean verify

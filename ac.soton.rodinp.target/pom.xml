@@ -32,7 +32,6 @@
   <properties>
     <bundle-suffix>TG2008</bundle-suffix>
     <rodinp-dev>org.rodinp.dev-3.5.0-74e0e4188</rodinp-dev>
-    <!-- <topdir>/Users/htson/Documents/rodin-code/Rodin-Bundles</topdir> -->
   </properties>
 
   <repositories>
@@ -40,7 +39,7 @@
       <!-- Repository contains the based Rodin platform and source -->
       <id>rodinp-dev</id>
       <layout>p2</layout>
-      <url>file://${topdir}/${rodinp-dev}</url>
+      <url>file://${basedir}/../${rodinp-dev}</url>
     </repository>
   </repositories>
 
