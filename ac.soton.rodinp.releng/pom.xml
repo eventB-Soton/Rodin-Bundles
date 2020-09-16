@@ -37,12 +37,6 @@
 
   <!-- Update sites to gather different features for the bundle -->
   <repositories>
-    <!-- Repository contains the based Rodin platform -->
-    <repository>
-      <id>rodin-core-updates</id>
-      <layout>p2</layout>
-      <url>http://rodin-b-sharp.sourceforge.net/core-updates</url>
-    </repository>
     <!-- Rodin Update Site for Rodin plug-ins -->
     <repository>
       <id>rodin-update-site</id>

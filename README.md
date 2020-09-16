@@ -65,8 +65,9 @@ group. Currently the folllowing bundles are included:
   - Eclipse SDK 5.17.0.v20200604-0951
   - EMF SDK 2.22.0.v20200519-1135
   - GEF SDK 3.11.0.201606061308
+  - GMF Runtime SDK 1.13.0.202004160913
 
-Running *mvn clean verify* at the top level will build all
-bundles. Individual bundle can be built by running *mvn clean verify*
+Running *run-maven.sh* at the top level will build all
+bundles. Individual bundle can be built by running *run-maven.sh*
 within the corresponding folder.
 

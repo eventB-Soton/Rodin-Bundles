@@ -29,6 +29,15 @@
   <name>Soton Baseline Bundle</name>
   <version>3.5.0-SNAPSHOT</version>
   
+  <repositories>
+    <!-- Repository contains the based Rodin platform -->
+    <repository>
+      <id>rodin-core-updates</id>
+      <layout>p2</layout>
+      <url>http://rodin-b-sharp.sourceforge.net/core-updates</url>
+    </repository>
+  </repositories>
+
   <properties>
     <bundle-suffix>BL2008</bundle-suffix>
   </properties>
