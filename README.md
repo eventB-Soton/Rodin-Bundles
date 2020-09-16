@@ -27,14 +27,14 @@ group. Currently the folllowing bundles are included:
   - Rose Editor SDK 1.7.0.release
   - Event-B Utils SDK 0.2.4.release
   - Event-B EMF SDK 6.1.0.release
-  - EMF Translator 3.0.1.release
-  - Event-B EMF Extension 6.1.0.release
-  - Event-B Translator Support 0.1.0.release
-  - Event-B ProB Support 0.0.0.release
-  - UML-B Diagrams 8.0.1.release
-  - EMF Inclusion 2.0.0.release
-  - EMF Records 0.1.0.release
-  - EMF Containment 0.0.2.release
+  - EMF Translator SDK 3.0.1.release
+  - Event-B EMF Extension SDK 6.1.0.release
+  - Event-B Translator Support SDK 0.1.0.release
+  - Event-B ProB Support SDK 0.0.0.release
+  - UML-B Diagrams SDK 8.0.1.release
+  - EMF Inclusion SDK 2.0.0.release
+  - EMF Records SDK 0.1.0.release
+  - EMF Containment SDK 0.0.2.release
 
 
 * *ac.soton.rodinp.target*: Bundle including the released features
@@ -53,14 +53,14 @@ group. Currently the folllowing bundles are included:
   - SMT Solvers 1.4.0.8c9a179
   - Event-B Utils SDK 0.2.4.release
   - Event-B EMF SDK 6.1.0.release
-  - EMF Translator 3.0.1.release
-  - Event-B EMF Extension 6.1.0.release
-  - Event-B Translator Support 0.1.0.release
-  - Event-B ProB Support 0.0.0.release
-  - UML-B Diagrams 8.0.1.release
-  - EMF Inclusion 2.0.0.release
-  - EMF Records 0.1.0.release
-  - EMF Containment 0.0.2.release
+  - EMF Translator SDK 3.0.1.release
+  - Event-B EMF Extension SDK 6.1.0.release
+  - Event-B Translator Support SDK 0.1.0.release
+  - Event-B ProB Support SDK 0.0.0.release
+  - UML-B Diagrams SDK 8.0.1.release
+  - EMF Inclusion SDK 2.0.0.release
+  - EMF Records SDK 0.1.0.release
+  - EMF Containment SDK 0.0.2.release
   - XText SDK 2.22.0.v20200602-1533
   - Eclipse SDK 5.17.0.v20200604-0951
   - EMF SDK 2.22.0.v20200519-1135
