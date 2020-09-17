@@ -13,6 +13,7 @@ group. Currently the folllowing bundles are included:
   - Scenario Checker 0.0.0.release
   - Rose Editor 1.7.0.release
   - SMT Solvers 1.4.0.8c9a179
+  - ProB 3.0.10.202009160721
 
 * *ac.soton.rodinp.baseline*: Bundle including the released features
   including their source and tests (SDK) from our group. This bundle
@@ -51,6 +52,7 @@ group. Currently the folllowing bundles are included:
   - Scenario Checker SDK 0.0.0.release
   - Rose Editor SDK 1.7.0.release
   - SMT Solvers 1.4.0.8c9a179
+  - ProB 3.0.10.202009160721
   - Event-B Utils SDK 0.2.4.release
   - Event-B EMF SDK 6.1.0.release
   - EMF Translator SDK 3.0.1.release
@@ -67,7 +69,7 @@ group. Currently the folllowing bundles are included:
   - GEF SDK 3.11.0.201606061308
   - GMF Runtime SDK 1.13.0.202004160913
 
-Running *run-maven.sh* at the top level will build all
-bundles. Individual bundle can be built by running *run-maven.sh*
+Running *mvn clean verify* at the top level will build all
+bundles. Individual bundle can be built by running *mvn clean verify*
 within the corresponding folder.
 
