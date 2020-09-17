@@ -59,6 +59,7 @@
       <feature id="ac.soton.eventb.scenariochecker.sdk" version="0.0.0.qualifier" installMode="root"/>
       <feature id="ac.soton.eventb.roseEditor.sdk" version="1.7.0.qualifier" installMode="root"/>
       <feature id="org.eventb.smt" version="1.4.0.qualifier" installMode="root"/>
+      <feature id="de.prob2.feature" version="3.0.10.qualifier" installMode="root"/>
       <feature id="ch.ethz.eventb.utils.sdk" version="0.2.4.qualifier" installMode="root"/>
       <feature id="org.eventb.emf.sdk" version="6.1.0.qualifier" installMode="root"/>
       <feature id="ac.soton.emf.translator.sdk" version="3.0.1.qualifier" installMode="root"/>
