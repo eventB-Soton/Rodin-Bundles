@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Copyright (c) 2020 University of Southampton.
+   
+    This program and the accompanying materials
+    are made available under the terms of the Eclipse Public License 2.0
+    which accompanies this distribution, and is available at
+    https://www.eclipse.org/legal/epl-2.0/
+   
+    SPDX-License-Identifier: EPL-2.0
+   
+    Contributors:
+        University of Southampton - initial API and implementation
+ -->
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  
+  <parent>
+    <groupId>ac.soton.rodinp</groupId>
+    <artifactId>root</artifactId>
+    <version>0.0.0-SNAPSHOT</version>
+    <relativePath>../pom.xml</relativePath>
+  </parent>
+  
+  <groupId>ac.soton.rodinp</groupId>
+  <artifactId>baseline</artifactId>
+  <name>Soton Baseline Bundle</name>
+  <version>3.5.0-SNAPSHOT</version>
+  
+  <repositories>
+    <!-- Repository contains the based Rodin platform -->
+    <repository>
+      <id>rodin-core-updates</id>
+      <layout>p2</layout>
+      <url>http://rodin-b-sharp.sourceforge.net/core-updates</url>
+    </repository>
+  </repositories>
+
+  <properties>
+    <bundle-suffix>BL2008</bundle-suffix>
+  </properties>
+
+  <packaging>eclipse-repository</packaging>
+  <build>
+    <plugins>
+      <plugin>
+	<groupId>org.eclipse.tycho</groupId>
+	<artifactId>tycho-p2-director-plugin</artifactId>
+	<executions>
+	  <execution>
+	    <id>materialize-products</id>
+	    <goals>
+	      <goal>materialize-products</goal>
+	    </goals>
+	  </execution>
+	  <execution>
+	    <id>archive-products</id>
+	    <goals>
+	      <goal>archive-products</goal>
+	    </goals>
+	  </execution>
+	</executions>
+	<configuration>
+	  <formats>
+	    <linux>tar.gz</linux>
+	    <macosx>tar.gz</macosx>
+	    <win32>zip</win32>
+	  </formats>
+	  <products>
+	    <product>
+	      <id>org.rodinp.platform.product</id>
+	      <archiveFileName>rodin-${rodin-version}-${bundle-suffix}</archiveFileName>
+	      <rootFolder>rodin</rootFolder>
+	    </product>
+	  </products>
+	</configuration>
+      </plugin>
+      
+      <plugin>
+	<artifactId>maven-antrun-plugin</artifactId>
+	<version>1.7</version>
+	<executions>
+	  <execution>
+	    <id>deploy-product</id>
+	    <phase>install</phase>
+	    <goals>
+	      <goal>run</goal>
+	    </goals>
+	    <configuration>
+	      <tasks>
+		<copy includeemptydirs="false" todir="${www-basedir}/downloads">
+		  <fileset dir="target/products">
+		    <include name="*.zip" />
+		    <include name="*.tar.gz" />
+		  </fileset>
+		</copy>
+		<copy includeemptydirs="false" todir="${www-basedir}/update-site">
+		  <fileset dir="target/repository">
+		    <include name="**" />
+		  </fileset>
+		</copy>
+	      </tasks>
+	    </configuration>
+	  </execution>
+	</executions>
+      </plugin>
+    </plugins>
+  </build>
+  
+</project>
