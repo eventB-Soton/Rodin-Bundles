@@ -30,8 +30,8 @@
   <version>3.5.0-SNAPSHOT</version>
   
   <properties>
-    <bundle-suffix>TG2008</bundle-suffix>
-    <rodinp-dev>org.rodinp.dev-3.5.0-74e0e4188</rodinp-dev>
+    <bundle-suffix>TG2012</bundle-suffix>
+    <rodinp-dev>org.rodinp.dev-3.5.0-9f39f1653</rodinp-dev>
   </properties>
 
   <repositories>
