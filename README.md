@@ -11,7 +11,7 @@ group. Currently the folllowing bundles are included:
   - UML-B Statemachines 4.0.1.release
   - UML-B Statemachines Animation 3.0.0.release
   - UML-B Classdiagrams 3.0.0.release
-  - Scenario Checker 0.0.0.release
+  - Scenario Checker 1.0.0.release
   - Rose Editor 1.7.0.release
   - SMT Solvers 1.4.0.8c9a179
   - ProB 3.0.10.202106111432
@@ -27,14 +27,14 @@ group. Currently the folllowing bundles are included:
   - UML-B Statemachines SDK 4.0.1.release
   - UML-B Statemachines Animation SDK 3.0.0.release
   - UML-B Classdiagrams SDK 3.0.0.release
-  - Scenario Checker SDK 0.0.0.release
+  - Scenario Checker SDK 1.0.0.release
   - Rose Editor SDK 1.7.0.release
   - Event-B Utils SDK 0.2.6.release
   - Event-B EMF SDK 6.1.0.release
   - EMF Translator SDK 3.0.1.release
   - Event-B EMF Extension SDK 6.1.0.release
   - Event-B Translator Support SDK 0.1.0.release
-  - Event-B ProB Support SDK 0.0.0.release
+  - Event-B ProB Support SDK 0.0.1.release
   - UML-B Diagrams SDK 8.0.1.release
   - EMF Inclusion SDK 2.0.2.release
   - EMF Records SDK 0.1.2.release
@@ -55,7 +55,7 @@ group. Currently the folllowing bundles are included:
   - UML-B Statemachines SDK 4.0.1.release
   - UML-B Statemachines Animation SDK 3.0.0.release
   - UML-B Classdiagrams SDK 3.0.0.release
-  - Scenario Checker SDK 0.0.0.release
+  - Scenario Checker SDK 1.0.0.release
   - Rose Editor SDK 1.7.0.release
   - SMT Solvers 1.4.0.8c9a179
   - ProB 3.0.10.202106111432
@@ -64,7 +64,7 @@ group. Currently the folllowing bundles are included:
   - EMF Translator SDK 3.0.1.release
   - Event-B EMF Extension SDK 6.1.0.release
   - Event-B Translator Support SDK 0.1.0.release
-  - Event-B ProB Support SDK 0.0.0.release
+  - Event-B ProB Support SDK 0.0.1.release
   - UML-B Diagrams SDK 8.0.1.release
   - EMF Inclusion SDK 2.0.2.release
   - EMF Records SDK 0.1.2.release

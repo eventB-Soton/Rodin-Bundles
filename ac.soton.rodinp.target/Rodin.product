@@ -56,7 +56,7 @@
       <feature id="ac.soton.eventb.statemachines.sdk" version="4.0.1.qualifier" installMode="root"/>
       <feature id="ac.soton.eventb.statemachines.animation.sdk" version="3.0.0.qualifier" installMode="root"/>
       <feature id="ac.soton.eventb.classdiagrams.sdk" version="3.0.0.qualifier" installMode="root"/>
-      <feature id="ac.soton.eventb.scenariochecker.sdk" version="0.0.0.qualifier" installMode="root"/>
+      <feature id="ac.soton.eventb.scenariochecker.sdk" version="1.0.0.qualifier" installMode="root"/>
       <feature id="ac.soton.eventb.roseEditor.sdk" version="1.7.0.qualifier" installMode="root"/>
       <feature id="org.eventb.smt" version="1.4.0.qualifier" installMode="root"/>
       <feature id="de.prob2.feature" version="3.0.10.qualifier" installMode="root"/>
@@ -65,7 +65,7 @@
       <feature id="ac.soton.emf.translator.sdk" version="3.0.1.qualifier" installMode="root"/>
       <feature id="ac.soton.eventb.emf.core.extension.sdk" version="6.1.0.qualifier" installMode="root"/>
       <feature id="ac.soton.emf.translator.eventb.sdk" version="0.1.0.qualifier" installMode="root"/>
-      <feature id="ac.soton.eventb.probsupport.sdk" version="0.0.0.qualifier" installMode="root"/>
+      <feature id="ac.soton.eventb.probsupport.sdk" version="0.0.1.qualifier" installMode="root"/>
       <feature id="ac.soton.eventb.emf.diagrams.sdk" version="8.0.1.qualifier" installMode="root"/>
       <feature id="ac.soton.eventb.emf.inclusion.sdk" version="2.0.2.qualifier" installMode="root"/>
       <feature id="ac.soton.eventb.emf.record.sdk" version="0.1.2.qualifier" installMode="root"/>

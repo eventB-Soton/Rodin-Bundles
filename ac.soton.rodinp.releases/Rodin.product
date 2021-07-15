@@ -54,7 +54,7 @@
       <feature id="ac.soton.eventb.statemachines.feature" version="4.0.1.qualifier" installMode="root"/>
       <feature id="ac.soton.eventb.statemachines.animation.feature" version="3.0.0.qualifier" installMode="root"/>
       <feature id="ac.soton.eventb.classdiagrams.feature" version="3.0.0.qualifier" installMode="root"/>
-      <feature id="ac.soton.eventb.scenariochecker.feature" version="0.0.0.qualifier" installMode="root"/>
+      <feature id="ac.soton.eventb.scenariochecker.feature" version="1.0.0.qualifier" installMode="root"/>
       <feature id="ac.soton.eventb.roseEditor.feature" version="1.7.0.qualifier" installMode="root"/>
       <feature id="org.eventb.smt" version="1.4.0.qualifier" installMode="root"/>
       <feature id="de.prob2.feature" version="3.0.10.qualifier" installMode="root"/>
