@@ -6,7 +6,7 @@ group. Currently the folllowing bundles are included:
   from our group. This bundle is intended for users. Currently, the
   content of the bundle is as follows
   - Rodin Product 3.6.0.202105121522-77c344946
-  - Rodin Handboock 2.5.0.201606291411
+  - Rodin Handbook 2.5.0.201606291411
   - CamilleX 2.1.0.release
   - UML-B Statemachines 4.0.1.release
   - UML-B Statemachines Animation 3.0.0.release
@@ -22,7 +22,7 @@ group. Currently the folllowing bundles are included:
   is intended for developers and to be used as the API baseline.
   Currently, the content of the bundle is as follows
   - Rodin Product 3.6.0.202105121522-77c344946
-  - Rodin Handboock 2.5.0.201606291411
+  - Rodin Handbook 2.5.0.201606291411
   - CamilleX SDK 2.1.0.release
   - UML-B Statemachines SDK 4.0.1.release
   - UML-B Statemachines Animation SDK 3.0.0.release
@@ -47,7 +47,7 @@ group. Currently the folllowing bundles are included:
   used as the target platform. Currently, the content of the bundle is
   as follows
   - Rodin Product 3.6.0.202105121522-77c344946
-  - Rodin Handboock 2.5.0.201606291411
+  - Rodin Handbook 2.5.0.201606291411
   - Event-B IDE Source 3.6.0.202105121522-77c344946
   - Rodin Platform Source 3.6.0.202105121522-77c344946
   - Rodin Platform Tests Source 3.6.0.202105121522-77c344946
@@ -80,6 +80,6 @@ Running *mvn clean verify* at the top level will build all
 bundles. Individual bundle can be built by running *mvn clean verify*
 within the corresponding folder.
 
-We recommend you to install Atelier-B provers (via Atelier-B Update
-Site) and Relevant filter (from the Rodin Plug-ins update site) to
+We recommend that you install the Atelier-B provers (via Atelier-B Update
+Site) and the Relevance Filter plug-in (from the Rodin Plug-ins update site) to
 enhance your proof experience.
