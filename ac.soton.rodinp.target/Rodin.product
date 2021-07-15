@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?pde version="3.5"?>
 
-<product name="Rodin Platform" uid="org.rodinp.platform.product" id="org.rodinp.platform.product" application="org.eclipse.ui.ide.workbench" version="3.6.0.202103091333-RC1-9b93bd7db-dirty-TG2103" useFeatures="true" includeLaunchers="true">
+<product name="Rodin Platform" uid="org.rodinp.platform.product" id="org.rodinp.platform.product" application="org.eclipse.ui.ide.workbench" version="3.6.0.202105121522-77c344946-TG2107" useFeatures="true" includeLaunchers="true">
 
    <aboutInfo>
       <image path="icons/about.gif"/>
@@ -48,9 +48,9 @@
    </plugins>
 
    <features>
-      <feature id="org.eventb.ide.source" version="3.6.0.qualifier"/>
-      <feature id="org.rodinp.platform.source" version="3.6.0.qualifier"/>
-      <feature id="org.rodinp.platform.tests.source" version="3.6.0.qualifier"/>
+      <feature id="org.eventb.ide.source" version="3.6.0.qualifier" installMode="root"/>
+      <feature id="org.rodinp.platform.source" version="3.6.0.qualifier" installMode="root"/>
+      <feature id="org.rodinp.platform.tests.source" version="3.6.0.qualifier" installMode="root"/>
       <feature id="org.rodinp.handbook.feature" installMode="root"/>
       <feature id="ac.soton.xeventb.sdk" version="2.1.0.qualifier" installMode="root"/>
       <feature id="ac.soton.eventb.statemachines.sdk" version="4.0.1.qualifier" installMode="root"/>
@@ -69,12 +69,14 @@
       <feature id="ac.soton.eventb.emf.diagrams.sdk" version="8.0.1.qualifier" installMode="root"/>
       <feature id="ac.soton.eventb.emf.inclusion.sdk" version="2.0.2.qualifier" installMode="root"/>
       <feature id="ac.soton.eventb.emf.record.sdk" version="0.1.2.qualifier" installMode="root"/>
+      <feature id="ac.soton.eventb.emf.containment.sdk" version="0.0.2.qualifier" installMode="root"/>
       <feature id="org.eclipse.xtext.sdk" version="2.24.0.qualifier" installMode="root"/>
       <feature id="org.eclipse.sdk" version="4.18.0.qualifier" installMode="root"/>
+      <feature id="org.eclipse.emf.sdk" version="2.24.0.qualifier" installMode="root"/>
       <feature id="org.eclipse.gmf.sdk" version="3.2.1.qualifier" installMode="root"/>
-      <feature id="ac.soton.eventb.emf.containment.sdk" version="0.0.2.qualifier" installMode="root"/>
+      <feature id="org.eclipse.rmf.reqif10.pror.sdk.feature" version="0.13.0.qualifier" installMode="root"/>
+      <feature id="org.eclipse.sphinx.sdk" version="0.11.0.qualifier" installMode="root"/>
    </features>
-
    <configurations>
       <plugin id="org.eclipse.core.runtime" autoStart="true" startLevel="0" />
       <plugin id="org.eclipse.equinox.common" autoStart="true" startLevel="2" />
