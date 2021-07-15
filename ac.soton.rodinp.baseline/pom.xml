@@ -39,7 +39,7 @@
   </repositories>
 
   <properties>
-    <bundle-suffix>BL2103</bundle-suffix>
+    <bundle-suffix>BL2107</bundle-suffix>
   </properties>
 
   <packaging>eclipse-repository</packaging>
