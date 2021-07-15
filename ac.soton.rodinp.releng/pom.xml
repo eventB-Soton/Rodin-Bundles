@@ -26,12 +26,12 @@
     <www-basedir>/tmp/rodin-build/</www-basedir>
 
     <!-- This should match the based Rodin platform in Rodin.product -->
-    <rodin-version>3.6.0.202103091333-RC1-9b93bd7db-dirty</rodin-version>
+    <rodin-version>3.6.0.202105121522-77c344946</rodin-version>
 
     <!-- Plug-in versions -->
     <tycho-version>2.0.0</tycho-version>
     <maven-resources-plugin-version>3.2.0</maven-resources-plugin-version>
-    <rodinp-dev>org.rodinp.dev-3.6.0-RC1-9b93bd7db-dirty</rodinp-dev>
+    <rodinp-dev>org.rodinp.dev-3.6.0-77c344946</rodinp-dev>
     <!-- <maven-antrun-plugin-version>3.0.0</maven-antrun-plugin-version> -->
     <!-- <maven-toolchains-plugin-version>3.0.0</maven-toolchains-plugin-version> -->
   </properties>
