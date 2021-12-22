@@ -4,14 +4,14 @@ Rodin-Bundles
 [![Build Status](https://app.travis-ci.com/eventB-Soton/Rodin-Bundles.svg?branch=master)](https://app.travis-ci.com/github/eventB-Soton/Rodin-Bundles)
 
 Rodin Platform Bundles that includes features developed by our
-group. Currently the following bundles are included:
+group. Currently the following December 2021 (2112) bundles are:
 
-* *ac.soton.rodinp.releases*: Bundle including the released features
+* *ac.soton.rodinp.releases*: RL2112 bundle includes the released features
   from our group. This bundle is intended for users. Currently, the
   content of the bundle is as follows
   - Rodin Product 3.6.0.202105121522-77c344946
   - Rodin Handbook 2.5.0.201606291411
-  - CamilleX 2.1.0.release
+  - CamilleX 2.1.1.release
   - UML-B Statemachines 4.0.1.release
   - UML-B Statemachines Animation 3.0.0.release
   - UML-B Classdiagrams 3.0.0.release
@@ -20,14 +20,15 @@ group. Currently the following bundles are included:
   - SMT Solvers 1.4.0.8c9a179
   - ProB 3.0.10.202106111432
   - RMF ProR 0.13.0.201509161042
+  - Git Integration for Eclipse 5.10.0.202012080955-r
 
-* *ac.soton.rodinp.baseline*: Bundle including the released features
+* *ac.soton.rodinp.baseline*: BL2112 bundle includes the released features
   including their source and tests (SDK) from our group. This bundle
   is intended for developers and to be used as the API baseline.
   Currently, the content of the bundle is as follows
   - Rodin Product 3.6.0.202105121522-77c344946
   - Rodin Handbook 2.5.0.201606291411
-  - CamilleX SDK 2.1.0.release
+  - CamilleX SDK 2.1.1.release
   - UML-B Statemachines SDK 4.0.1.release
   - UML-B Statemachines Animation SDK 3.0.0.release
   - UML-B Classdiagrams SDK 3.0.0.release
@@ -44,7 +45,7 @@ group. Currently the following bundles are included:
   - EMF Records SDK 0.1.2.release
   - EMF Containment SDK 0.0.2.release
 
-* *ac.soton.rodinp.target*: Bundle including the released features
+* *ac.soton.rodinp.target*: TG2112 bundle includes the released features
   including their source and tests (SDK) from our group. Additionally,
   this bundle also include the SDK of Eclipse features that our
   features depend on. This bundle is intended for developers and to be
@@ -55,7 +56,7 @@ group. Currently the following bundles are included:
   - Event-B IDE Source 3.6.0.202105121522-77c344946
   - Rodin Platform Source 3.6.0.202105121522-77c344946
   - Rodin Platform Tests Source 3.6.0.202105121522-77c344946
-  - CamilleX SDK 2.1.0.release
+  - CamilleX SDK 2.1.1.release
   - UML-B Statemachines SDK 4.0.1.release
   - UML-B Statemachines Animation SDK 3.0.0.release
   - UML-B Classdiagrams SDK 3.0.0.release
@@ -79,6 +80,7 @@ group. Currently the following bundles are included:
   - GMF Tooling SDK 3.2.1.201409171321
   - RMF ProR SDK 0.13.0.201509161042
   - Sphinx SDK 0.11.0.201706140911
+  - Git Integration for Eclipse 5.10.0.202012080955-r
 
 Requirements
 ------------
