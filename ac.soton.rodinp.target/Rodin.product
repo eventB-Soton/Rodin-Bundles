@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?pde version="3.5"?>
 
-<product name="Rodin Platform" uid="org.rodinp.platform.product" id="org.rodinp.platform.product" application="org.eclipse.ui.ide.workbench" version="3.6.0.202105121522-77c344946-TG2107" useFeatures="true" includeLaunchers="true">
+<product name="Rodin Platform" uid="org.rodinp.platform.product" id="org.rodinp.platform.product" application="org.eclipse.ui.ide.workbench" version="3.6.0.202105121522-77c344946-TG2112" useFeatures="true" includeLaunchers="true">
 
    <aboutInfo>
       <image path="icons/about.gif"/>
@@ -52,7 +52,7 @@
       <feature id="org.rodinp.platform.source" version="3.6.0.qualifier" installMode="root"/>
       <feature id="org.rodinp.platform.tests.source" version="3.6.0.qualifier" installMode="root"/>
       <feature id="org.rodinp.handbook.feature" installMode="root"/>
-      <feature id="ac.soton.xeventb.sdk" version="2.1.0.qualifier" installMode="root"/>
+      <feature id="ac.soton.xeventb.sdk" version="2.1.1.qualifier" installMode="root"/>
       <feature id="ac.soton.eventb.statemachines.sdk" version="4.0.1.qualifier" installMode="root"/>
       <feature id="ac.soton.eventb.statemachines.animation.sdk" version="3.0.0.qualifier" installMode="root"/>
       <feature id="ac.soton.eventb.classdiagrams.sdk" version="3.0.0.qualifier" installMode="root"/>
@@ -76,7 +76,9 @@
       <feature id="org.eclipse.gmf.sdk" version="3.2.1.qualifier" installMode="root"/>
       <feature id="org.eclipse.rmf.reqif10.pror.sdk.feature" version="0.13.0.qualifier" installMode="root"/>
       <feature id="org.eclipse.sphinx.sdk" version="0.11.0.qualifier" installMode="root"/>
+      <feature id="org.eclipse.egit" version="5.10.0.qualifier" installMode="root"/>
    </features>
+
    <configurations>
       <plugin id="org.eclipse.core.runtime" autoStart="true" startLevel="0" />
       <plugin id="org.eclipse.equinox.common" autoStart="true" startLevel="2" />

@@ -1,9 +1,9 @@
 instructions.configure=\
   mkdir(path:${installFolder}/dropins);\
-  addRepository(type:0,location:http${#58}//download.eclipse.org/releases/2020-12,name:2020-12);\
-  addRepository(type:1,location:http${#58}//download.eclipse.org/releases/2020-12,name:2020-12);\
-  addRepository(type:0,location:http${#58}//download.eclipse.org/eclipse/updates/4.18,name:The Eclipse Project 4.18 Updates);\
-  addRepository(type:1,location:http${#58}//download.eclipse.org/eclipse/updates/4.18,name:The Eclipse Project 4.18 Updates);\
+  addRepository(type:0,location:https${#58}//download.eclipse.org/releases/2020-12,name:2020-12);\
+  addRepository(type:1,location:https${#58}//download.eclipse.org/releases/2020-12,name:2020-12);\
+  addRepository(type:0,location:https${#58}//download.eclipse.org/eclipse/updates/4.18,name:The Eclipse Project 4.18 Updates);\
+  addRepository(type:1,location:https${#58}//download.eclipse.org/eclipse/updates/4.18,name:The Eclipse Project 4.18 Updates);\
   addRepository(type:0,location:http${#58}//methode-b.com/update_site/atelierb_provers,name:Atelier B Provers);\
   addRepository(type:1,location:http${#58}//methode-b.com/update_site/atelierb_provers,name:Atelier B Provers);\
   addRepository(type:0,location:http${#58}//rodin-b-sharp.sourceforge.net/updates,name:Rodin Plug-ins);\
@@ -16,16 +16,12 @@ instructions.configure=\
   addRepository(type:1,location:http${#58}//www.stups.hhu.de/camille_updates,name:Camille);\
   addRepository(type:0,location:http${#58}//www.animb.org/updatesite,name:AnimB);\
   addRepository(type:1,location:http${#58}//www.animb.org/updatesite,name:AnimB);\
-  addRepository(type:0,location:http${#58}//dl.bintray.com/subclipse/releases/subclipse/latest,name:Subclipse);\
-  addRepository(type:1,location:http${#58}//dl.bintray.com/subclipse/releases/subclipse/latest,name:Subclipse);\
-  addRepository(type:0,location:http${#58}//download.scala-ide.org/sdk/lithium/e44/scala211/stable/site,name:Scala);\
-  addRepository(type:1,location:http${#58}//download.scala-ide.org/sdk/lithium/e44/scala211/stable/site,name:Scala);\
   addRepository(type:0,location:http${#58}//handbook.event-b.org/updatesite,name:Rodin Handbook);\
   addRepository(type:1,location:http${#58}//handbook.event-b.org/updatesite,name:Rodin Handbook);\
-  addRepository(type:0,location:http${#58}//download.eclipse.org/rmf/updates/releases,name:RMF Update Site);\
-  addRepository(type:1,location:http${#58}//download.eclipse.org/rmf/updates/releases,name:RMF Update Site);\
-  addRepository(type:0,location:http${#58}//http://download.eclipse.org/sphinx/releases/0.11.x,name:Sphinx 0.11 Update Site);\
-  addRepository(type:1,location:http${#58}//http://download.eclipse.org/sphinx/releases/0.11.x,name:Sphinx 0.11 Update Site);\
-  addRepository(type:0,location:http${#58}//eventb-soton.github.io/updateSite/releases,name:Soton Plug-ins);\
-  addRepository(type:1,location:http${#58}//eventb-soton.github.io/updateSite/releases,name:Soton Plug-ins);
+  addRepository(type:0,location:https${#58}//download.eclipse.org/rmf/updates/releases,name:RMF Update Site);\
+  addRepository(type:1,location:https${#58}//download.eclipse.org/rmf/updates/releases,name:RMF Update Site);\
+  addRepository(type:0,location:https${#58}//download.eclipse.org/sphinx/releases/0.11.x,name:Sphinx 0.11 Update Site);\
+  addRepository(type:1,location:https${#58}//download.eclipse.org/sphinx/releases/0.11.x,name:Sphinx 0.11 Update Site);\
+  addRepository(type:0,location:https${#58}//eventb-soton.github.io/updateSite/releases,name:Soton Plug-ins);\
+  addRepository(type:1,location:https${#58}//eventb-soton.github.io/updateSite/releases,name:Soton Plug-ins);
 # BEWARE ! THE PREVIOUS LINE MUST NOT END WITH A BACKSLASH
