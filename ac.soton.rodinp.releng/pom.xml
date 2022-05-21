@@ -26,12 +26,12 @@
     <www-basedir>/tmp/rodin-build/</www-basedir>
 
     <!-- This should match the based Rodin platform in Rodin.product -->
-    <rodin-version>3.6.0.202105121522-77c344946</rodin-version>
+    <rodin-version>rodin-3.7.0.202204290954-46a4e4e99</rodin-version>
 
     <!-- Plug-in versions -->
     <tycho-version>2.0.0</tycho-version>
     <maven-resources-plugin-version>3.2.0</maven-resources-plugin-version>
-    <rodinp-dev>org.rodinp.dev-3.6.0-77c344946</rodinp-dev>
+    <rodinp-dev>org.rodinp.dev</rodinp-dev>
     <!-- <maven-antrun-plugin-version>3.0.0</maven-antrun-plugin-version> -->
     <!-- <maven-toolchains-plugin-version>3.0.0</maven-toolchains-plugin-version> -->
   </properties>
@@ -50,17 +50,11 @@
       <layout>p2</layout>
       <url>http://www.stups.hhu.de/prob_updates_rodin3</url>
     </repository>
-    <!-- Soton Releases Update Site-->
-    <repository>
-      <id>Soton-releases</id>
-      <layout>p2</layout>
-      <url>https://eventb-soton.github.io/updateSite/releases</url>
-    </repository>
     <!-- Eclipse Releases Update Site -->
     <repository>
-      <id>2020-12</id>
+      <id>2021-12</id>
       <layout>p2</layout>
-      <url>https://download.eclipse.org/releases/2020-12</url>
+      <url>https://download.eclipse.org/releases/2021-12</url>
     </repository>
     <!-- GMF Tooling Update Site -->
     <repository>

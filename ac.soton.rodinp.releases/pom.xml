@@ -27,10 +27,10 @@
   <groupId>ac.soton.rodinp</groupId>
   <artifactId>releases</artifactId>
   <name>Soton Releases Bundle</name>
-  <version>3.6.0-SNAPSHOT</version>
+  <version>3.7.0-SNAPSHOT</version>
   
   <properties>
-    <bundle-suffix>RL2112</bundle-suffix>
+    <bundle-suffix>RL2206</bundle-suffix>
   </properties>
 
   <repositories>

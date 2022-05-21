@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?pde version="3.5"?>
 
-<product name="Rodin Platform" uid="org.rodinp.platform.product" id="org.rodinp.platform.product" application="org.eclipse.ui.ide.workbench" version="3.6.0.202105121522-77c344946-RL2112" useFeatures="true" includeLaunchers="true">
+<product name="Rodin Platform" uid="org.rodinp.platform.product" id="org.rodinp.platform.product" application="org.eclipse.ui.ide.workbench" version="3.7.0.202204290954-46a4e4e99-RL2206" useFeatures="true" includeLaunchers="true">
 
    <aboutInfo>
       <image path="icons/about.gif"/>
@@ -14,7 +14,7 @@
    </configIni>
 
    <launcherArgs>
-      <vmArgs>-Dosgi.requiredJavaVersion=1.8
+      <vmArgs>-Dosgi.requiredJavaVersion=11
 -Xms256m
 -Xmx1024m
 -XX:+UseG1GC
@@ -48,7 +48,7 @@
    </plugins>
 
    <features>
-      <feature id="org.rodinp.platform" version="3.6.0.qualifier"/>
+      <feature id="org.rodinp.platform" version="3.7.0.qualifier"/>
       <feature id="org.rodinp.handbook.feature" installMode="root"/>
       <feature id="ac.soton.xeventb.feature" version="2.1.1.qualifier" installMode="root"/>
       <feature id="ac.soton.eventb.statemachines.feature" version="4.0.1.qualifier" installMode="root"/>
@@ -59,15 +59,17 @@
       <feature id="org.eventb.smt" version="1.4.0.qualifier" installMode="root"/>
       <feature id="de.prob2.feature" version="3.0.10.qualifier" installMode="root"/>
       <feature id="org.eclipse.rmf.reqif10.pror.feature" version="0.13.0.qualifier" installMode="root"/>
-      <feature id="org.eclipse.egit" version="5.10.0.qualifier" installMode="root"/>
+      <feature id="org.eclipse.egit" version="6.0.0.qualifier" installMode="root"/>
    </features>
 
    <configurations>
+      <plugin id="org.apache.felix.scr" autoStart="true" startLevel="2" />
       <plugin id="org.eclipse.core.runtime" autoStart="true" startLevel="0" />
       <plugin id="org.eclipse.equinox.common" autoStart="true" startLevel="2" />
-      <plugin id="org.eclipse.equinox.ds" autoStart="true" startLevel="2" />
+      <plugin id="org.eclipse.equinox.event" autoStart="true" startLevel="2" />
       <plugin id="org.eclipse.equinox.p2.reconciler.dropins" autoStart="true" startLevel="4" />
       <plugin id="org.eclipse.equinox.simpleconfigurator" autoStart="true" startLevel="1" />
+      <plugin id="org.eclipse.update.configurator" autoStart="false" startLevel="4" />
    </configurations>
 
    <preferencesInfo>

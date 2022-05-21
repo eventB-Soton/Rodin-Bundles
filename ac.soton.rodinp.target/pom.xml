@@ -27,10 +27,10 @@
   <groupId>ac.soton.rodinp</groupId>
   <artifactId>target</artifactId>
   <name>Soton Target Bundle</name>
-  <version>3.6.0-SNAPSHOT</version>
+  <version>3.7.0-SNAPSHOT</version>
   
   <properties>
-    <bundle-suffix>TG2112</bundle-suffix>
+    <bundle-suffix>TG2206</bundle-suffix>
   </properties>
 
   <repositories>
