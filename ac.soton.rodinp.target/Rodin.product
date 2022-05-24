@@ -52,13 +52,19 @@
       <feature id="org.rodinp.platform.source" version="3.7.0.qualifier" installMode="root"/>
       <feature id="org.rodinp.platform.tests.source" version="3.7.0.qualifier" installMode="root"/>
       <feature id="org.rodinp.handbook.feature" installMode="root"/>
+
+      <feature id="org.eclipse.sdk" version="4.22.0.qualifier" installMode="root"/>
+      <feature id="org.eclipse.egit" version="6.0.0.qualifier" installMode="root"/>
+      <feature id="org.eclipse.emf.sdk" version="2.28.0.qualifier" installMode="root"/>
+      <feature id="org.eclipse.xtext.sdk" version="2.25.0.qualifier" installMode="root"/>
+
       <feature id="ac.soton.xeventb.sdk" version="2.1.1.qualifier" installMode="root"/>
       <feature id="ac.soton.eventb.statemachines.sdk" version="4.0.1.qualifier" installMode="root"/>
       <feature id="ac.soton.eventb.statemachines.animation.sdk" version="3.0.0.qualifier" installMode="root"/>
       <feature id="ac.soton.eventb.classdiagrams.sdk" version="3.0.0.qualifier" installMode="root"/>
       <feature id="ac.soton.eventb.scenariochecker.sdk" version="1.0.0.qualifier" installMode="root"/>
       <feature id="ac.soton.eventb.roseEditor.sdk" version="1.7.0.qualifier" installMode="root"/>
-      <feature id="org.eventb.smt" version="1.4.0.qualifier" installMode="root"/>
+      <feature id="org.eventb.smt" version="1.5.0.qualifier" installMode="root"/>
       <feature id="de.prob2.feature" version="3.0.10.qualifier" installMode="root"/>
       <feature id="ch.ethz.eventb.utils.sdk" version="0.2.6.qualifier" installMode="root"/>
       <feature id="org.eventb.emf.sdk" version="6.1.0.qualifier" installMode="root"/>
@@ -70,13 +76,9 @@
       <feature id="ac.soton.eventb.emf.inclusion.sdk" version="2.0.2.qualifier" installMode="root"/>
       <feature id="ac.soton.eventb.emf.record.sdk" version="0.1.2.qualifier" installMode="root"/>
       <feature id="ac.soton.eventb.emf.containment.sdk" version="0.0.2.qualifier" installMode="root"/>
-      <feature id="org.eclipse.xtext.sdk" version="2.25.0.qualifier" installMode="root"/>
-      <feature id="org.eclipse.sdk" version="4.22.0.qualifier" installMode="root"/>
-      <feature id="org.eclipse.emf.sdk" version="2.28.0.qualifier" installMode="root"/>
       <feature id="org.eclipse.gmf.sdk" version="3.2.1.qualifier" installMode="root"/>
       <feature id="org.eclipse.rmf.reqif10.pror.sdk.feature" version="0.13.0.qualifier" installMode="root"/>
       <feature id="org.eclipse.sphinx.sdk" version="0.11.0.qualifier" installMode="root"/>
-      <feature id="org.eclipse.egit" version="6.0.0.qualifier" installMode="root"/>
    </features>
 
    <configurations>

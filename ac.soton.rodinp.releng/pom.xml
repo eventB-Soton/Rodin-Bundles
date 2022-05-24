@@ -26,7 +26,7 @@
     <www-basedir>/tmp/rodin-build/</www-basedir>
 
     <!-- This should match the based Rodin platform in Rodin.product -->
-    <rodin-version>rodin-3.7.0.202204290954-46a4e4e99</rodin-version>
+    <rodin-version>3.7.0.202204290954-46a4e4e99</rodin-version>
 
     <!-- Plug-in versions -->
     <tycho-version>2.0.0</tycho-version>
