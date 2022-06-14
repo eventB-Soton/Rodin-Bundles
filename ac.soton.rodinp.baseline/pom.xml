@@ -27,7 +27,7 @@
   <groupId>ac.soton.rodinp</groupId>
   <artifactId>baseline</artifactId>
   <name>Soton Baseline Bundle</name>
-  <version>3.6.0-SNAPSHOT</version>
+  <version>3.7.0-SNAPSHOT</version>
   
   <repositories>
     <!-- Repository contains the based Rodin platform -->
@@ -39,7 +39,7 @@
   </repositories>
 
   <properties>
-    <bundle-suffix>BL2112</bundle-suffix>
+    <bundle-suffix>BL2206</bundle-suffix>
   </properties>
 
   <packaging>eclipse-repository</packaging>
