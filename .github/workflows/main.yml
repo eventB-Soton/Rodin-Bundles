@@ -1,26 +1,31 @@
-# This is a basic workflow to help you get started with Actions
+# This is a workflow for building with Maven. This is adapted from
+# https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-java-with-maven
 
 name: Maven CI
 
 # Controls when the workflow will run
 on:
-  # Triggers the workflow on push or pull request events but only for the "latest" branch
+  # Triggers the workflow on push or pull request events but only for the "latest" or "stable" branches
   push:
-    branches: [ "latest" ]
+    branches: [ "latest", "stable" ]
   pull_request:
-    branches: [ "latest" ]
+    branches: [ "latest", "stable" ]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+# Currently, there is only a single job called "build"
 jobs:
-  # This workflow contains a single job called "build"
+  # "build" job
   build:
-    # The type of runner that the job will run on
+    # Run on the latest Ubuntu runner
     runs-on: ubuntu-latest
 
-    # Steps represent a sequence of tasks that will be executed as part of the job
+    # Currently, the "build" job contains the following steps
+    # 1. Check out the repository
+    # 2. (Restore from) Cache the local Maven repository
+    # 3. Set up JDK 11
+    # 4. Run the Maven build with "mvn clean verify"
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
