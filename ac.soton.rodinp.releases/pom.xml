@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-    Copyright (c) 2020, 2021 University of Southampton.
+    Copyright (c) 2020, 2023 University of Southampton.
    
     This program and the accompanying materials
     are made available under the terms of the Eclipse Public License 2.0
@@ -30,7 +30,7 @@
   <version>3.7.0-SNAPSHOT</version>
   
   <properties>
-    <bundle-suffix>RL2206</bundle-suffix>
+    <bundle-suffix>RL2212</bundle-suffix>
   </properties>
 
   <repositories>
@@ -39,6 +39,11 @@
       <id>rodin-core-updates</id>
       <layout>p2</layout>
       <url>http://rodin-b-sharp.sourceforge.net/core-updates</url>
+    </repository>
+    <repository>
+      <id>eclipse-updates</id>
+      <layout>p2</layout>
+      <url>https://download.eclipse.org/eclipse/updates/4.20</url>
     </repository>
     <repository>
       <id>rmf-updates</id>
