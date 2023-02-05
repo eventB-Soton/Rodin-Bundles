@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?pde version="3.5"?>
 
-<product name="Rodin Platform" uid="org.rodinp.platform.product" id="org.rodinp.platform.product" application="org.eclipse.ui.ide.workbench" version="3.7.0.202204290954-46a4e4e99-BL2206" useFeatures="true" includeLaunchers="true" autoIncludeRequirements="true">
+<product name="Rodin Platform" uid="org.rodinp.platform.product" id="org.rodinp.platform.product" application="org.eclipse.ui.ide.workbench" version="3.7.0.202204290954-46a4e4e99-BL2212" useFeatures="true" includeLaunchers="true" autoIncludeRequirements="true">
 
    <aboutInfo>
       <image path="icons/about.gif"/>
