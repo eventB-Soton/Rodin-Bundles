@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?pde version="3.5"?>
 
-<product name="Rodin Platform" uid="org.rodinp.platform.product" id="org.rodinp.platform.product" application="org.eclipse.ui.ide.workbench" version="3.7.0.202204290954-46a4e4e99-RL2206" useFeatures="true" includeLaunchers="true">
+<product name="Rodin Platform" uid="org.rodinp.platform.product" id="org.rodinp.platform.product" application="org.eclipse.ui.ide.workbench" version="3.7.0.202204290954-46a4e4e99-RL2206" useFeatures="true" includeLaunchers="true" autoIncludeRequirements="true">
 
    <aboutInfo>
       <image path="icons/about.gif"/>
@@ -50,12 +50,8 @@
    <features>
       <feature id="org.rodinp.platform" version="3.7.0.qualifier"/>
       <feature id="org.rodinp.handbook.feature" installMode="root"/>
-      <feature id="ac.soton.xeventb.feature" version="2.1.1.qualifier" installMode="root"/>
-      <feature id="ac.soton.eventb.statemachines.feature" version="4.0.1.qualifier" installMode="root"/>
-      <feature id="ac.soton.eventb.statemachines.animation.feature" version="3.0.0.qualifier" installMode="root"/>
-      <feature id="ac.soton.eventb.classdiagrams.feature" version="3.0.0.qualifier" installMode="root"/>
-      <feature id="ac.soton.eventb.scenariochecker.feature" version="1.0.0.qualifier" installMode="root"/>
-      <feature id="ac.soton.eventb.roseEditor.feature" version="1.7.0.qualifier" installMode="root"/>
+      <feature id="ac.soton.xeventb.feature" version="3.0.0.qualifier" installMode="root"/>
+      <feature id="ac.soton.eventb.roseEditor.feature" version="1.8.0.qualifier" installMode="root"/>
       <feature id="org.eventb.smt" version="1.5.0.qualifier" installMode="root"/>
       <feature id="de.prob2.feature" version="3.0.10.qualifier" installMode="root"/>
       <feature id="org.eclipse.rmf.reqif10.pror.feature" version="0.13.0.qualifier" installMode="root"/>
