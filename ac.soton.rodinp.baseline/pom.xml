@@ -34,7 +34,7 @@
     <repository>
       <id>rodin-core-updates</id>
       <layout>p2</layout>
-      <url>http://rodin-b-sharp.sourceforge.net/core-updates</url>
+      <url>http://rodin-b-sharp.sourceforge.net/core-updates/old</url>
     </repository>
   </repositories>
 
